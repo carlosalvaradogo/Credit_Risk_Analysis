@@ -29,27 +29,27 @@ The Accuracy Scores for the methods:
 
 Precision and Recall (Sensitivity) Scores for each of the methods correspond to the "pre" and "rec" columns in the screenshots shown in the remainder of this section:
 
-* **Naive Random Oversampler**:
+* **Naive Random Oversampler**: poor precision for "high risk" outcomes with better than coin toss recall.
 
 ![](Resources/naive_oversampling.png)
 
-* **SMOTE Oversampler**:
+* **SMOTE Oversampler**: poor precision for "high risk" outcomes with better than coin toss recall.
 
 ![](Resources/smote_oversampling.png)
 
-* **Cluster Centroids Undersampler**:
+* **Cluster Centroids Undersampler**: poor precision for "high risk" outcomes with better than coin toss recall for "high risk" outcomes and worse than a coin toss recall for "low risk" outcomes.
 
 ![](Resources/cluster_centroids_undersampling.png)
 
-* **SMOTEEN Combination Sampler**:
+* **SMOTEEN Combination Sampler**: poor precision for "high risk" outcomes with better than coin toss recall.
 
 ![](Resources/combination_sampling.png)
 
-* **Balanced Random Forest Classifier**:
+* **Balanced Random Forest Classifier**: poor precision for "high risk" outcomes with decent recall for "high risk" outcomes and good recall for "low risk" outcomes.
 
 ![](Resources/balanced_random_forest.png)
 
-* **Easy Ensemble Classifier**:
+* **Easy Ensemble Classifier**: poor precision for "high risk" outcomes with good great score for both types of outcomes.
 
 ![](Resources/easy_ensemble.png)
 
